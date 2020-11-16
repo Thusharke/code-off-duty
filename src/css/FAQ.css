@@ -1,0 +1,18 @@
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+}
+/* cursor animations */
+@keyframes animated-cursor{
+    from{border-right-color: rgba(0, 255, 70, 100);}
+    to{border-right-color: transparent;}
+}
+
+@keyframes rotate-object {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
